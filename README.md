@@ -1,4 +1,4 @@
-# MOF-Membrane
+# MOF-Membrane Constructor
 MOF-Membrane Constructor is a Python code that constructs MOF membrane models.
 To install and run the code, please follow these steps:
 
