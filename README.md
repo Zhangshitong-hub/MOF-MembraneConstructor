@@ -25,4 +25,4 @@ A GUI is designed for users to quickly and conveniently use this tool. A typical
 
 (5) Check the "error.log" file in the Output directory for any issues.
 
-(6) For more details about the algorithm and features, please refer to our work (DOI: *****)
+For more details about the algorithm and features, please refer to our work (DOI: *****)
