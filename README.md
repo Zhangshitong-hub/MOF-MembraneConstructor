@@ -5,7 +5,7 @@ To install and run the code, please follow these steps:
 
 INSTALLATION:
 
-(1) Download the scripts; archive it in a directory.
+(1) Download all the Compressed packages or the scripts; archive them in a directory.
 
 (2) Click the Constructor.exe in /dist folder to run this program; This only supports the Windows system.
 Users can also run the Constructor.py of the source code in Pythod IDE to perform this program.
