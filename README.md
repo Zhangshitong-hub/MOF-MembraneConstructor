@@ -15,7 +15,7 @@ EXECUTION:
 
 A GUI is designed for users to quickly and conveniently use this tool. A typical construction job should include the following steps:
 
-(1) Click the "Select" button in the "Input Path" panel to choose a directory that holds the input structures. If CIF files are used to describe the input MOFs, we recommend users prepare them in line with the formats of the CIF files in the /Example folder. Otherwise, the program may generate unwanted output structures.
+(1) Click the "Select" button in the "Input Path" panel to choose a directory that holds the input structures.Note that only CIF and CAR files are supported as the input structures of MOF. Besides, if CIF files are used to describe the input MOFs, we recommend users prepare them in line with the formats of the CIF files in the /Example folder. Otherwise, the program may generate unwanted output structures.
 
 (2) Define a directory to save the output files by clicking the "Select" button in the "Output Path" panel.
 
