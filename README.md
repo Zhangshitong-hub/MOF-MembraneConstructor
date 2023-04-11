@@ -7,8 +7,11 @@ INSTALLATION:
 
 (1) Download all the compressed packages in "program_package" or the scripts in "source_code"; release them in a directory.
 
-(2) Click the Constructor.exe in /dist folder to run this program; This only supports the Windows system.
-Users can also run the Constructor.py of the source code in Pythod IDE to perform this program.
+(2) Click the Constructor.exe in /dist folder to run this program; This only supports the Windows (Windows 10/11) system. 
+Users can also run the Constructor.py of the source code in Python environment to perform this program with the installation of "Shapely" package through the command line in Windows, Mac OS or Linux. 
+Specifically, if Anconda software have been installed, users can perform this program in a virtual environments via these steps:
+a) conda install shapely ;
+b) python Constructor.py ;
 
 
 EXECUTION:
