@@ -31,6 +31,6 @@ A GUI is designed for users to quickly and conveniently use this tool. A typical
 
 (5) Check the "warning.log" file in the Output directory for any issues.
 
-The files in directory "Test_for_runtime_and_reliability" are the Inputs and Outpus for generating the runtime and reliability of this code. The test resluts are briefly summarized in "plane_test.xlsx" and "surface-termination_test.xlsx".
+The files in directory "Test_for_runtime_and_reliability" are the Inputs and Outpus for evaluating the runtime and reliability of this code. The test resluts are briefly summarized in "plane_test.xlsx" and "surface-termination_test.xlsx".
 
 For more details about the algorithm and features, please refer to our work (DOI: *****)
