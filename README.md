@@ -5,10 +5,10 @@ To install and run the code, please follow these steps:
 
 INSTALLATION:
 
-(1) Download all the compressed packages in "program_package" or the scripts in "source_code"; release them in a directory.
+(1) Download all the compressed packages in "MOF_Membrane_Constructor" or the scripts in compressed in"source_code.zip"; release them in a directory.
 
-(2) Click the Constructor.exe in /dist folder to run this program; This only supports the Windows (Windows 10/11) system. 
-Users can also run the Constructor.py of the source code in Python environment to perform this program with the installation of "Shapely" package through the command line in Windows, Mac OS or Linux. 
+(2) Click the Constructor.exe in /MOF_Membrane_Constructor folder to run this program; This only supports the Windows (Windows 10/11) system. 
+Users can also run the Constructor.py of the source code in Python environment to perform this program with the installation of numpy 1.23.0, shapely 1.8.2 and pymatgen 2023.5.31 packages and  through the command line in Windows, Mac OS or Linux. 
 
 Specifically, if Anconda has been installed, users can perform this program in a virtual environments via these steps:
 
@@ -29,6 +29,6 @@ A GUI is designed for users to quickly and conveniently use this tool. A typical
 
 (4) Click the "Start" button in the bottom frame.
 
-(5) Check the "error.log" file in the Output directory for any issues.
+(5) Check the "warning.log" file in the Output directory for any issues.
 
 For more details about the algorithm and features, please refer to our work (DOI: *****)
