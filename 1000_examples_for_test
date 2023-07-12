@@ -1,0 +1,6 @@
+(1)The outputs in "Output/running_speed_test" is generated using the inputs in "Input\input_1000_CoRE_MOFs";
+
+(2)The outputs in "Output/reliability_test" is generated using the inputs in either "Input\input_random_100_for_exposed_plane"
+ or "Input\input_random_100_for_surface_termination", which are randomly selected from "Input\input_1000_CoRE_MOFs";
+
+(3)The settings for generating the outputs in each file folder are described in the "job.log" files. 
