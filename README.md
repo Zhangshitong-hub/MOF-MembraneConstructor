@@ -4,7 +4,7 @@ The MOF-Membrane Constructor is a Python-based tool for constructing MOF membran
 Installation
 Download all four compressed packages in the "MOF_Membrane_Constructor" folder or the scripts compressed in the "source_code.zip" file. Extract them to a directory.
 
-To run the program on Windows (Windows 10/11), click on the Constructor.exe file in the /MOF_Membrane_Constructor folder (extracted from the MOF_Membrane_Constructor.zip.001-004 files). Alternatively, you can run the Constructor.py file from the source code in a Python environment on Windows, Mac OS, or Linux, with the following packages installed: numpy 1.23.0, shapely 1.8.2, and pymatgen 2023.5.31.
+To run the program on Windows (Windows 10/11), click on the "Constructor.exe" file in the /MOF_Membrane_Constructor folder (extracted from the MOF_Membrane_Constructor.zip.001-004 files). Alternatively, you can run the Constructor.py file from the source code in a Python environment on Windows, Mac OS, or Linux, with the following packages installed: numpy 1.23.0, shapely 1.8.2, and pymatgen 2023.5.31.
 
 To install and run the program using Anaconda, follow these steps:
 
