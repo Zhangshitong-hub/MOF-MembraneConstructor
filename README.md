@@ -1,36 +1,32 @@
-# MOF-Membrane Constructor
-MOF-Membrane Constructor is a Python code that constructs MOF membrane models.
-To install and run the code, please follow these steps:
+MOF-Membrane Constructor
+The MOF-Membrane Constructor is a Python-based tool for constructing MOF membrane models. This guide will walk you through the installation and execution process.
 
+Installation
+Download all four compressed packages in the "MOF_Membrane_Constructor" folder or the scripts compressed in the "source_code.zip" file. Extract them to a directory.
 
-INSTALLATION:
+To run the program on Windows (Windows 10/11), click on the Constructor.exe file in the /MOF_Membrane_Constructor folder (extracted from the MOF_Membrane_Constructor.zip.001-004 files). Alternatively, you can run the Constructor.py file from the source code in a Python environment on Windows, Mac OS, or Linux, with the following packages installed: numpy 1.23.0, shapely 1.8.2, and pymatgen 2023.5.31.
 
-(1) Download all the compressed packages in "MOF_Membrane_Constructor" or the scripts compressed in"source_code.zip"; release them in a directory.
+To install and run the program using Anaconda, follow these steps:
 
-(2) Click the Constructor.exe in /MOF_Membrane_Constructor folder to run this program; This only supports the Windows (Windows 10/11) system. 
-Users can also run the Constructor.py of the source code in Python environment to perform this program with the installation of numpy 1.23.0, shapely 1.8.2 and pymatgen 2023.5.31 packages and  through the command line in Windows, Mac OS or Linux. 
+a) Install shapely: conda install shapely
 
-Specifically, if Anconda has been installed, users can perform this program in a virtual environments via these steps:
+b) Install pymatgen: conda install pymatgen
 
-a) conda install shapely ;
+c) Run the Constructor: python Constructor.py
 
-b) python Constructor.py ;
+Execution
+A graphical user interface (GUI) is provided for easy and convenient use of the tool. Follow these steps for a typical construction job:
 
+Click the "Select" button in the "Input Path" panel to choose a directory containing the input structures. Note that only CIF and CAR files are supported as input MOF structures. If using CIF files, we recommend formatting them according to the examples provided in the /Example folder to avoid unwanted output structures.
 
-EXECUTION:
+Define an output directory by clicking the "Select" button in the "Output Path" panel.
 
-A GUI is designed for users to quickly and conveniently use this tool. A typical construction job should include the following steps:
+Review and adjust the modeling parameters in the middle frame as needed.
 
-(1) Click the "Select" button in the "Input Path" panel to choose a directory that holds the input structures. Note that only CIF and CAR files are supported as the input structures of MOF. Besides, if CIF files are used to describe the input MOFs, we recommend users prepare them in line with the formats of the CIF files in the /Example folder. Otherwise, the program may generate unwanted output structures.
+Click the "Start" button in the bottom frame to begin the construction process.
 
-(2) Define a directory to save the output files by clicking the "Select" button in the "Output Path" panel.
+Check the "warning.log" file in the output directory for any issues or warnings.
 
-(3) Check or set the modeling parameters in the middle frame.
+The "Test_for_runtime_and_reliability" directory contains input and output files for evaluating the runtime and reliability of the code. Test results are summarized in the "plane_test.xlsx" and "surface-termination_test.xlsx" files.
 
-(4) Click the "Start" button in the bottom frame.
-
-(5) Check the "warning.log" file in the Output directory for any issues.
-
-The files in directory "Test_for_runtime_and_reliability" are the Inputs and Outpus for evaluating the runtime and reliability of this code. The test resluts are briefly summarized in "plane_test.xlsx" and "surface-termination_test.xlsx".
-
-For more details about the algorithm and features, please refer to our work (DOI: *****)
+For more information on the algorithm and features, please refer to our work (DOI: *****).
