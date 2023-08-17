@@ -1,4 +1,4 @@
-MOF-Membrane Constructor
+# MOF-Membrane Constructor
 The MOF-Membrane Constructor is a Python-based tool for constructing MOF membrane models. This guide will walk you through the installation and execution process.
 
 Installation
