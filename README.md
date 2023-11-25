@@ -29,4 +29,4 @@ Check the "warning.log" file in the output directory for any issues or warnings.
 
 The "Test_for_runtime_and_reliability" directory contains input and output files for evaluating the runtime and reliability of the code. Test results are summarized in the "plane_test.xlsx" and "surface-termination_test.xlsx" files.
 
-For more information on the algorithm and features, please refer to our work (DOI: *****).
+For more information on the algorithm and features, please refer to our work (DOI: https://doi.org/10.1021/acs.jcim.3c01678).
